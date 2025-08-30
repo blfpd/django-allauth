@@ -8,6 +8,9 @@ Overall
   Specifies the adapter class to use, allowing you to alter certain
   default behaviour.
 
+``ACCOUNT_DEFAULT_HTTP_PROTOCOL`` (default: ``"http"``)
+  The default protocol to be used for generating links.
+
 ``ACCOUNT_FORMS``
   Used to override the builtin forms. Defaults to::
 
